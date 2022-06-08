@@ -25,17 +25,3 @@ my_file = os.path.join(THIS_FOLDER, 'turtle.json')
 with open(my_file) as f:
     m_data = json.load(f)
     
-# for i in range(4):
-#     skk.forward(50)
-#     skk.right(20)
-
-# t.done()
-
-# def split_number(number):
-#     number_as_string = str(number)
-#     for character in number_as_string:
-#         if not character.isdigit():
-#             continue
-#         yield int(character)
-# print(list(split_number(mp.pi)))
-# # [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 9]
